@@ -31,6 +31,6 @@ class TestE2E:
         checkoutpage.purchaseItems()
         mssg = checkoutpage.getConfirmation()
         assert "Success" in mssg
-        time.sleep(2)
+        time.sleep(1)
 
 
