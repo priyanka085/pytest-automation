@@ -1,5 +1,6 @@
 
 pytest~=9.0.2
+selenium
 requests
 responses~=0.25.8
 jsonschema~=4.26.0
