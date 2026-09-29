@@ -9,6 +9,7 @@ from pageObject.CheckOutPage import CheckOutPage
 
 class TestE2E:
     @pytest.mark.usefixtures("setup")
+    @pytest.mark.smoke
     def test_demo(self):
 
         homepage = HomePage(self.driver)
